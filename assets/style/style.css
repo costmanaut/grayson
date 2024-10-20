@@ -64,6 +64,7 @@ a {
     min-height: 749px;
     background: url(../images/fon.png) no-repeat center;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -125,7 +126,6 @@ a {
 .project {
     background: url(../images/bg.png) no-repeat ;
     background-size: cover;
-    width: 1920px;
     height: 404px;
     display: flex;
     justify-content: start;
