@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+input {
+    border: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}   
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list-link {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    padding: 33px;
+    display: block;
+}
+.nav__list-link:hover {
+    background: lavender;
+    transition: 1s;
+}
+
+.search {
+    width: 180px;
+    height: 28px;
+    border: 2px solid #41A28E;
+}
+
+.search:focus-visible {
+    outline: none;
+}
+
+.poster {
+    min-height: 749px;
+    background: url(../images/fon.png) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.poster__title {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 17px 61px;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.poster__subtitle {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 6px 6px 5px 0 rgba(0, 0, 0, 0.38);
+
+}
+.shop {
+    width: 131px;
+    height: 59px;
+    background: #fff;
+    margin: 50px;
+}
+.products__content-card {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products__content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.product__content-title-h2 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.product__content-post{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    padding: 18px 300px ;
+}
+
+.project {
+    background: url(../images/bg.png) no-repeat ;
+    background-size: cover;
+    width: 1920px;
+    height: 404px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.project__content-title {
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+}
+.project__content-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+
