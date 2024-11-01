@@ -5,97 +5,273 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grayson</title>
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="stylesheet" href="./assets/style/font.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-
     <header class="header">
-        <nav class="nav">
-            <div class="nav__content container">
-                <a href="#" class="nav__logo">
-                    <img src="./assets/images/Logo_black.svg" alt="LOGO">
-                </a>
-
-                <ul class="nav__list">
-                    <li><a href="#" class="nav__list-link">HOME</a></li>
-                    <li><a href="#" class="nav__list-link">PAGES</a></li>
-                    <li><a href="#" class="nav__list-link third">PORTFOLIO 
-                        
+        <nav class="header__nav">
+            <div class="container">
+                <div class="header__nav-box">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="">
                     </a>
-                        <ul class="submenu">
-                            <li class="list__link-submenu"><a href="#">SHOP</a> </li>
-                            <li class="list__link-submenu"><a href="#">FASHION</a> </li>
-                            <li class="list__link-submenu"><a href="#">GALLERY</a> </li>
-                        </ul>                    
-                    
-                    </li>
-                    <li><a href="#" class="nav__list-link">BLOG</a></li>
-                    <li><a href="#" class="nav__list-link">ABOUT</a></li>
-                    <li><a href="#" class="nav__list-link">SHORTCODES</a></li>
-                </ul>
+                    <ul class="header__nav-list">
+                        <li><a href="#" class="header__nav-link">HOME</a></li>
+                        <li><a href="#" class="header__nav-link">PAGES</a></li>
+                        <li class="header__nav-li">
+                            <a href="#" class="header__nav-link">
+                                PORTFOLIO
+                                <img class="header__nav-link-img" src="images/arrow.svg" alt="">
+                            </a>
+                            <ul class="header__nav-drop">
+                                <li><a href="#" class="header__nav-drop-link">BLOG</a></li>
+                                <li><a href="#" class="header__nav-drop-link dash">FASHION</a></li>
+                                <li><a href="#" class="header__nav-drop-link">GALLERY</a></li>
+                            </ul>
 
-
-                <input type="search" class="search" placeholder="Search" required>
-
-                <button class="button">
-                    <img src="./assets/images/icon search.svg" alt="search">
-                </button>
+                        </li>
+                        <li><a href="#" class="header__nav-link">BLOG</a></li>
+                        <li><a href="#" class="header__nav-link">ABOUT</a></li>
+                        <li><a href="#" class="header__nav-link">SHORTCODES</a></li>
+                    </ul>
+                    <form class="header__nav-form">
+                        <input placeholder="Search" type="text" class="header__nav-input">
+                        <button class="header__nav-btn">
+                            <img src="images/search.svg" alt="">
+                        </button>
+                    </form>
+                </div>
             </div>
         </nav>
+        <div class="header__content">
+            <h1 class="header__content-title"> Amazing Shop Layouts</h1>
+            <p class="header__content-text">Grayson Collection</p>
+            <a href="" class="header__content-link">SHOP NOW</a>
 
+        </div>
     </header>
-
+    
+    
     <main class="main">
-        <section class="poster">
-
-            <h1 class="poster__title">
-                Amazing Shop Layouts
-            </h1>
-
-            <h2 class="poster__subtitle">
-                Grayson Collection
-            </h2>
-
-            <button name="shopping" class="shop">SHOP NOW</button>
-
+        <section class="commerce">
+            <div class="container">
+                <div class="commerce__box">
+                    <div class="commerce__box-item">
+                        <img src="images/barca.jpg" alt="" class="commerce__box-item-img">
+                        <h2 class="commerce__box-item-title">Barcelona</h2>
+                    </div>
+                    <div class="commerce__box-item">
+                        <img src="images/milan.jpg" alt="" class="commerce__box-item-img">
+                        <h2 class="commerce__box-item-title">Milan</h2>
+                    </div>
+                    <div class="commerce__box-item">
+                        <img src="images/parij.jpg" alt="" class="commerce__box-item-img">
+                        <h2 class="commerce__box-item-title">Parij</h2>
+                    </div>
+                    <div class="commerce__box-item">
+                        <img src="images/rome.jpg" alt="" class="commerce__box-item-img">
+                        <h2 class="commerce__box-item-title">Rome</h2>
+                    </div>
+                </div>
+                <div class="commerce__info">
+                    <h2 class="commerce__info-title">eCommerce Ready</h2>
+                    <p class="commerce__info-text">Style your products and shop pages, add a cart widget to your header,
+                        and convert clicks into sales.</p>
+                </div>
+            </div>
         </section>
+
+        <section class="collection">
+            <div class="container">
+                <div class="collection__box">
+                    <p class="collection__box-text">The Chloe Collection</p>
+                    <h2 class="collection__box-link">The Project Jacket</h2>
+                    <button class="collection__box-purchase header__nav-btn ">PURCHASE THEME</button>
+                    
+                </div>
+            </div>
+        </section>     
+        
+        
+        <section class="custom">
+            <div class="custom__content container">            
+                
+                <div class="custom__text">
+                    <h2 class="custom__title">
+                        Highly Customizable
+                    </h2>
+                    
+                    <p class="custom__desc">
+                        Style your products and shop pages, add a cart widget to your header,
+                        and convert clicks into sales.
+                    </p>
+                    
+                    
+                </div>
+                
+                
+                <div class="custom__cards">   
+                                     
+                    <div class="custom__cards-item">
+                        <div class="custom__cards-item-info">
+                            <img src="./images/Rectangle 1.png" alt="">
+                            
+                            <div class="custom__cards-item-info-block">
+                                <a href="#" class="link">
+                                    <img src="./images/icons/Vector.svg" alt="">
+                                    <span>ADD TO CART</span>
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/like.svg" alt="">
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/EYE.svg" alt="">
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="custom__cards-item-text">
+                            <h4>Cotton-Blend-Jacket</h4>
+                            <p>$48.00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="custom__cards-item">
+                        <div class="custom__cards-item-info">
+                            <img src="./images/Rectangle 2.png" alt="">
+                            
+                            <div class="custom__cards-item-info-block">
+                                <a href="#" class="link">
+                                    <img src="./images/icons/Vector.svg" alt="">
+                                    <span>ADD TO CART</span>
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/like.svg" alt="">
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/EYE.svg" alt="">
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="custom__cards-item-text">
+                            <h4>Multi Pocket Jacket</h4>
+                            <p>$59.00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="custom__cards-item">
+                        <div class="custom__cards-item-info">
+                            <img src="./images/Rectangle 3.png" alt="">
+                            
+                            <div class="custom__cards-item-info-block">
+                                <a href="#" class="link">
+                                    <img src="./images/icons/Vector.svg" alt="">
+                                    <span>ADD TO CART</span>
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/like.svg" alt="">
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/EYE.svg" alt="">
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="custom__cards-item-text">
+                            <h4>Velvet Blazer
+                            </h4>
+                            <p>$48.00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="custom__cards-item">
+                        <div class="custom__cards-item-info">
+                            <img src="./images/Rectangle 4.png" alt="">
+                            
+                            <div class="custom__cards-item-info-block">
+                                <a href="#" class="link">
+                                    <img src="./images/icons/Vector.svg" alt="">
+                                    <span>ADD TO CART</span>
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/like.svg" alt="">
+                                </a>
+                                
+                                <a href="#" class="link">
+                                    <img src="./images/icons/EYE.svg" alt="">
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        
+                        <div class="custom__cards-item-text">
+                            <h4>Cotton-Blend-Jacket
+                            </h4>
+                            
+                            <p> <span>$28.00</span> $16.00</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </main>
-
-    <section class="products">
-        <div class="products__content container">
-            <div class="products__content-card">
-                <div class="products__content-card-1"><img src="./assets/images/menu_card1.png" alt="card"></div>
-                <div class="products__content-card-2"><img src="./assets/images/menu_card2.png" alt="card"></div>
-                <div class="products__content-card-3"><img src="./assets/images/menu_card3.png" alt="card"></div>
-                <div class="products__content-card-4"><img src="./assets/images/menu_card4.png" alt="card"></div>
+    
+    
+    
+    
+    
+    <footer class="footer">
+        <div class="footer__content container">
+            
+            <div class="footer__item">
+                <h4 class="footer__item-title">
+                    Customer Services
+                </h4>
+                
+                
+                
             </div>
-
-            <div class="products__content-title">
-                <h2 class="product__content-title-h2">eCommerce Ready</h2>
-                <p class="product__content-post">Style your products and shop pages, add a cart widget to your header, and convert clicks into sales.</p>
-            </div>
+            
+            
         </div>
-    </section>
-
-    <section class="project">
-        <div class="project__content container">
-            <div class="project__content-subtitle">
-                The Chloe Collection
-            </div>
-            <div class="project__content-title">
-                The Project Jacket
-            </div>
-            <div class="project__content-button">
-                <button>button theme</button>
-            </div>
-
-        </div>
-    </section>
-
-
+        
+    </footer>
 
 </body>
 
